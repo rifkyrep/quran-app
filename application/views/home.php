@@ -14,7 +14,7 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 mb-4">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="#">Al-Quranku</a>
           <div class="form-inline my-2 my-lg-0">
