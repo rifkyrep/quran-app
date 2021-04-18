@@ -17,15 +17,10 @@
       <div class="col-md-12">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="#">Al-Quranku</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Cari Surat atau Surat Ke-" aria-label="Search" id="filter-api">
-              </form>
-            </div>
+          <div class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Cari Surat atau Surat Ke-" aria-label="Search" id="filter-api">
+            </form>
+          </div>
         </nav>
       </div>
     </div>
