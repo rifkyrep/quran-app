@@ -61,7 +61,10 @@
         <p>Dikembangkan oleh <a href="https://github.com/rifkyrep" target="_blank">rifky</a>.</p>
       </div>
       <div class="col-md-6 col-5 text-right">
-        <p>Kembali ke Atas</p>
+        <!-- Back to Top -->
+        <a id="back-to-top" href="#" class="btn btn-sm btn-primary back-to-top" role="button" title="" data-toggle="tooltip" data-placement="left">
+          Kembali Ke Atas
+        </a>
       </div>
     </div>
   </footer>
@@ -78,6 +81,31 @@
           $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
       });
+    });
+  </script>
+
+  <!-- Back to Top -->
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 500) {
+          $('#back-to-top').fadeIn();
+        } else {
+          $('#back-to-top').fadeOut();
+        }
+      });
+      // scroll body to 0px on click
+      $('#back-to-top').click(function() {
+        $('#back-to-top').tooltip('hide');
+        $('body,html').animate({
+          scrollTop: 0
+        }, 900);
+        return false;
+      });
+
+      $('#back-to-top').tooltip('show');
+
     });
   </script>
 </body>
