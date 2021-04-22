@@ -36,7 +36,17 @@
               $surah_type = '<span class="badge badge-danger">' . $s['type'] . '</span>';
             }
           ?>
-            <li class="list-group-item"><a href="<?= site_url('surah/find/' . ($k + 1)) ?>"><?= $n++ . ') ' . $s['titleAr'] . ' (' . $s['title'] . ')' ?></a> <?= $surah_type ?></li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-md-6 col-6">
+                  <a href="<?= site_url('surah/find/' . ($k + 1)) ?>"><?= $n++ . ') ' . $s['titleAr'] . ' (' . $s['title'] . ')' ?>
+                  </a>
+                </div>
+                <div class="col-md-6 col-6 text-right">
+                  <?= $surah_type ?>
+                </div>
+              </div>
+            </li>
           <?php
           }
           ?>
