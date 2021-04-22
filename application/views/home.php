@@ -45,11 +45,15 @@
     </div>
   </div>
 
-
-
-
   <footer class="container">
-
+    <div class="row">
+      <div class="col-md-6 col-6">
+        <p>Dikembangkan oleh <a href="https://github.com/rifkyrep">rifky</a>.</p>
+      </div>
+      <div class="col-md-6 col-6 text-right">
+        <p>Kembali ke Atas</p>
+      </div>
+    </div>
   </footer>
 
   <script src="<?= base_url(THEME . "js/jquery-3.4.1.slim.min.js"); ?>"></script>
