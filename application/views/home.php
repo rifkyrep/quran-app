@@ -48,7 +48,7 @@
   <footer class="container">
     <div class="row">
       <div class="col-md-6 col-6">
-        <p>Dikembangkan oleh <a href="https://github.com/rifkyrep" target="">rifky</a>.</p>
+        <p>Dikembangkan oleh <a href="https://github.com/rifkyrep" target="_blank">rifky</a>.</p>
       </div>
       <div class="col-md-6 col-6 text-right">
         <p>Kembali ke Atas</p>
