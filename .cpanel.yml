@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/plusenam/quran.plusenamdua.my.id/
+    - /bin/cp -u -r * $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
