@@ -47,10 +47,10 @@
 
   <footer class="container">
     <div class="row">
-      <div class="col-md-6 col-6">
+      <div class="col-md-6 col-7">
         <p>Dikembangkan oleh <a href="https://github.com/rifkyrep" target="_blank">rifky</a>.</p>
       </div>
-      <div class="col-md-6 col-6 text-right">
+      <div class="col-md-6 col-5 text-right">
         <p>Kembali ke Atas</p>
       </div>
     </div>
